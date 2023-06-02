@@ -10,13 +10,14 @@ var name = "Edward";
     // Problem 3 Solution
     var num1 = 5;
     var num2 = 10;
-    var area = num1 + num2;
-    console.log(area);
+    var sum = num1 + num2;
+    console.log(sum);
 
 
 // Problem 4 Solution
 var radius = 15;
-var area = Math.PI *Math.pow(radius, 2);
+var PI = 3.14;
+var area = PI * radius ** 2;
 console.log(area);
 
 
